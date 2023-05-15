@@ -12,7 +12,7 @@ function App() {
             <img src={goatlogo} alt="" />
             <div>
                 {cuestionario.map((el) => (
-                    <p>{el.pregunta}</p>
+                    <p><span>Pregunta N° {el.id}: </span>{el.pregunta}</p>
                 ))}
             </div>
         </>
