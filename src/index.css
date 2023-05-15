@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  background: fixed linear-gradient(#061807, #0d530d, #061807);
+  font-family: 'Share Tech Mono', monospace;
+  color: #12EF15;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.linea-animada {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0) 20%, #147716);
+  animation: 8s fondo infinite linear;
+  z-index: -1;
+}
+
+@keyframes fondo {
+  from{
+    bottom: 100vh;
+    opacity: 100%;
+  }
+  to{
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+img {
+  /* filter:  sepia(100%) hue-rotate(80deg) saturate(150%) contrast(150%);  */
+  filter: invert(1) sepia(100%) hue-rotate(80deg) saturate(150%) contrast(150%); 
+}
