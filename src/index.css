@@ -87,3 +87,22 @@ img {
   /* filter:  sepia(100%) hue-rotate(80deg) saturate(150%) contrast(150%);  */
   filter: invert(1) sepia(100%) hue-rotate(80deg) saturate(150%) contrast(150%); 
 }
+
+.answer-btn {
+  border: none;
+  background: none;
+  font-family: 'Share Tech Mono', monospace;
+  color: #12EF15; 
+  text-align: left;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.answers-div {
+  list-style: none;
+  padding-top: 2rem;
+}
+
+.question-div {
+  padding-top: 2rem;
+}
