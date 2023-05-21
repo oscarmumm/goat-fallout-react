@@ -1,0 +1,15 @@
+export const results = {
+  'ArmasDeEnergia': 'Pedicurista',
+  'Trueque': 'Capellán del Refugio',
+  'ArmasGrandes': 'Operador del cañón de la lavandería',
+  'Explosivos': 'Especialista en gestión de residuos',
+  'Ganzúa': 'Inspector de lealtad del refugio',
+  'Medicina': 'Sujeto de pruebas',
+  'CuerpoACuerpo': 'Cocinero',
+  'Reparacion': 'Técnico de la máquina de discos',
+  'Ciencia': 'Programador de Pip-Boy',
+  'ArmasPequeñas': 'Tatuador',
+  'Sigilo': 'Supervisor',
+  'Conversacion': 'Asesor matrimonial del refugio',
+  'Desarmado': 'Entrenador de ligas pequeñas',
+}

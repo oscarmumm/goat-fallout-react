@@ -1,20 +1,34 @@
 .answer-btn {
-  border: none;
-  background: none;
-  font-family: 'Share Tech Mono', monospace;
-  color: #12EF15; 
-  text-align: left;
-  width: 100%;
-  font-size: 1.25rem;
-  margin: 1rem;
-  cursor: pointer;
+    border: none;
+    background: none;
+    font-family: "Share Tech Mono", monospace;
+    color: #12ef15;
+    text-align: left;
+    width: 100%;
+    font-size: 1.25rem;
+    margin: 1rem;
+    cursor: pointer;
 }
 
 .answers-div {
-  list-style: square;
-  padding-top: 2rem;
+    list-style: square;
+    padding-top: 2rem;
 }
 
 .question-div {
-  padding-top: 2rem;
+    padding-top: 2rem;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 50vh;
+}
+.restart-test-btn {
+    font-size: 1.5rem;
+    color: #12ef15;
+    text-decoration: none;
 }

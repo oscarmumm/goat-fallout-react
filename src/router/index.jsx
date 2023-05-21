@@ -3,7 +3,6 @@ import Home from "../views/Home";
 import Quiz from "../views/Quiz";
 import LayoutPublic from "../layout/LayoutPublic";
 import NotFound from "../views/NotFound";
-import Results from "../views/Results";
 
 export const router = createBrowserRouter([
   {
@@ -19,10 +18,6 @@ export const router = createBrowserRouter([
         path: '/quiz',
         element: <Quiz />
       },
-      {
-        path: '/results',
-        element: <Results />
-      }
     ]
   }
 ])
