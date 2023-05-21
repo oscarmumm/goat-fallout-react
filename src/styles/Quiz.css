@@ -11,7 +11,7 @@
 }
 
 .answers-div {
-  list-style: none;
+  list-style: square;
   padding-top: 2rem;
 }
 

@@ -3,10 +3,10 @@ import "../styles/MainBackground.css";
 const MainBackground = () => {
     return (
         <>
-            <span className="trademark-msg">
-                Bienvenido al terminal de Vault-Tec, impulsado por tecnología
+            {/* <span className="trademark-msg">
+                Terminal de Vault-Tec, impulsado por tecnología
                 RobCo (TM){" "}
-            </span>
+            </span> */}
             <div className="linea-animada"></div>
         </>
     );
