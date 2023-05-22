@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { cuestionario } from "../data/questions";
 import { results } from "../data/results";
 import { NavLink } from "react-router-dom";
@@ -13,9 +13,10 @@ const Quiz = () => {
     const handleClick = (respuesta) => {
         if (preguntaActual < 9) {
             setPuntuacion([...puntuacion, ...respuesta.skill]);
+            console.log('puntuacion actual: ', puntuacion)
             setPreguntaActual(preguntaActual + 1);
         } else {
-            console.log(puntuacion)
+            console.log('puntuacion final: ', puntuacion)
             console.log(puntuacion.sort())
             calcularResultado(puntuacion);
             setIsFinished(true)

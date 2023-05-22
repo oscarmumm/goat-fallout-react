@@ -6,13 +6,17 @@
     text-align: left;
     width: 100%;
     font-size: 1.25rem;
-    margin: 1rem;
+    padding: 1rem;
     cursor: pointer;
 }
 
 .answers-div {
     list-style: square;
     padding-top: 2rem;
+}
+
+.answers-div li:hover {
+    outline: 2px solid #12ef15;
 }
 
 .question-div {
