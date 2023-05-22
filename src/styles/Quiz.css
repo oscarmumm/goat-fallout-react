@@ -23,6 +23,10 @@
     padding-top: 2rem;
 }
 
+.question-img {
+    filter:  sepia(100%) hue-rotate(80deg) saturate(150%) contrast(150%);
+}
+
 .results-container {
     display: flex;
     flex-direction: column;
