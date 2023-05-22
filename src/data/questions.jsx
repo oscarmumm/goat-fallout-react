@@ -159,7 +159,7 @@ export const cuestionario = [
             {
                 textoRespuesta:
                     "Rezar. Con suerte, Dios se apiadará de ti y te recompensará por tu fe",
-                skill: ["Conversacion"],
+                skill: ["Trueque"],
             },
             {
                 textoRespuesta:
@@ -212,7 +212,7 @@ export const cuestionario = [
             {
                 textoRespuesta:
                     "Fuerzas la cerradura de su botiquín y le cambias las pastillas para la hipertensión por sacarina",
-                skill: ["Sigilo"],
+                skill: ["Medicina"],
             },
             {
                 textoRespuesta:
