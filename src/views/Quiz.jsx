@@ -3,6 +3,7 @@ import { cuestionario } from "../data/questions";
 import { results } from "../data/results";
 import { NavLink } from "react-router-dom";
 import "../styles/Quiz.css";
+import { images } from "../assets/img/images";
 
 const Quiz = () => {
     const [preguntaActual, setPreguntaActual] = useState(0);
@@ -43,6 +44,7 @@ const Quiz = () => {
                 <div className="question-div">
                     <div>
                         <h3>{cuestionario[preguntaActual].pregunta}</h3>
+                        <img className="question-img" src={images[(cuestionario[preguntaActual].id) -1 ]} alt="question-img" />
                     </div>
                     <ul className="answers-div">
                         {cuestionario[preguntaActual].opciones.map(

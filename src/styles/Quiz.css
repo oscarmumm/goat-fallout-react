@@ -15,16 +15,12 @@
     padding-top: 2rem;
 }
 
-.answers-div li:active {
-    outline: 2px solid #12ef15;
-}
-
 .question-div {
     padding-top: 2rem;
 }
 
 .question-img {
-    filter:  sepia(100%) hue-rotate(80deg) saturate(150%) contrast(150%);
+    max-width: 300px;
 }
 
 .results-container {
