@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 
 :root {
-    background: fixed linear-gradient(#061807, #0d530d, #061807);
+    background: linear-gradient(#061807, #0d530d, #061807);
     font-family: "Share Tech Mono", monospace;
     color: #12ef15;
     max-width: 800px;
     margin: 0 auto;
     padding: 0 2rem;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 body {
