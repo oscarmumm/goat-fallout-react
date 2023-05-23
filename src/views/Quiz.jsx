@@ -18,7 +18,6 @@ const Quiz = () => {
             setPreguntaActual(preguntaActual + 1);
         } else {
             console.log('puntuacion final: ', puntuacion)
-            console.log(puntuacion.sort())
             calcularResultado(puntuacion);
             setIsFinished(true)
         }
@@ -28,8 +27,9 @@ const Quiz = () => {
         const duplicates = arr.filter(
             (elem, index) => arr.indexOf(elem) != index
         );
-        const resultado = duplicates[0];
-        setResultado(resultado)
+        console.log(duplicates)
+        duplicates.length >= 1 ? setResultado(duplicates[0]) : setResultado(arr[0]);
+        console.log(resultado)
     };
 
     return (
